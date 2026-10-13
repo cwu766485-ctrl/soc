@@ -1,0 +1,18 @@
+﻿# Generated simulation and formal outputs
+**/simv
+**/simv.daidir/
+**/csrc/
+**/INCA_libs/
+**/urgReport/
+**/cov_work/
+**/work/
+**/transcript
+**/*.vcd
+**/*.fsdb
+**/*.vpd
+**/*.log
+**/*.jou
+**/*.key
+**/*.db
+**/*.vdb
+**/*.ucdb

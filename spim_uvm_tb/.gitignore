@@ -1,0 +1,54 @@
+# Editor and Python cache files
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*~
+.DS_Store
+
+# VCS simulation build products and runtime files
+uvm_spim/verif/sim/csrc/
+uvm_spim/verif/sim/simv
+uvm_spim/verif/sim/simv.daidir/
+uvm_spim/verif/sim/simv.*
+uvm_spim/verif/sim/ucli.key
+uvm_spim/verif/sim/vc_hdrs.h
+uvm_spim/verif/sim/DVEfiles/
+uvm_spim/verif/sim/*.log
+
+# Per-test logs, waveforms, and coverage databases
+uvm_spim/verif/sim/logs/
+uvm_spim/verif/sim/*.vpd
+uvm_spim/verif/sim/*.vcd
+uvm_spim/verif/sim/*.fsdb
+uvm_spim/verif/sim/*.vdb/
+
+# Verdi interactive sessions and generated debug databases
+verdiLog/
+uvm_spim/verdiLog/
+uvm_spim/verif/sim/verdiLog/
+uvm_spim/verif/sim/vdCovLog/
+uvm_spim/verif/sim/vfastLog/
+uvm_spim/verif/sim/novas.conf
+uvm_spim/verif/sim/novas.rc
+uvm_spim/verif/sim/.fsm.sch.verilog.xml
+uvm_spim/verif/sim/fullexclude.*
+uvm_spim/verif/sim/fullexclude_module.*
+
+# VC Formal sessions, counterexamples, and reports
+uvm_spim/formal/formal_session/
+uvm_spim/formal/formal_session_rtdb/
+uvm_spim/formal/formal_demo_fail_session/
+uvm_spim/formal/formal_demo_fail_session_rtdb/
+# VC Formal session backups are generated databases, not source collateral.
+# They contain special files that Windows Git cannot index.
+uvm_spim/formal/*.rtdb.bak
+uvm_spim/formal/*.rtdb.bak/**
+uvm_spim/formal/formal_reset_session_rtdb.bak/
+uvm_spim/formal/formal_session_rtdb.bak/
+# VC Formal learned data is regenerated from a formal run.
+uvm_spim/formal/spi_formal_harness_learn_dir/
+uvm_spim/formal/reports/
+uvm_spim/formal/vcst_command.log
+/.vc_env.txt
+/vcf.log

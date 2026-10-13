@@ -1,0 +1,2 @@
+`define APB_ADDR_WIDTH 8
+`define APB_DATA_WIDTH 32
